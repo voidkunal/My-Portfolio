@@ -571,6 +571,14 @@ margin: .7rem 0;
     display: block;
     }
 
+    .icon1{
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding-left : 85vw;
+    }
+
+
 .navbar{
     position: absolute;
     top: 100%;
@@ -727,6 +735,14 @@ margin: .7rem 0;
 
 @media (max-width: 671px) {
 
+    .icon1{
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding-left : 85vw;
+    }
+
+
     .portfolio-container { 
         grid-template-columns: 1fr;
     }
@@ -814,7 +830,7 @@ margin: .7rem 0;
         display : flex;
         align-items : center;
         justify-content : center;
-        padding-left : 70vw;
+        padding-left : 85vw;
     }
 
     .contact form.input-box input {
