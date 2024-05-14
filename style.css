@@ -21,14 +21,10 @@ font-family: 'Nunito', sans-serif;
 
 :root {
 
-    --bg-color: #191f36;
-    
-  
-    --snd-bg-color: #262840;
-    
-    --text-color:#fff;
-    
-    --main-color:#59B2F4;
+    --bg-color: #1995AD; /* Light lime green background */
+    --snd-bg-color:  #A1D6E2; /* Slightly darker light lime green */
+    --text-color: #002C54; /* Darker green for text */
+    --main-color:  #F1F1F2; /* Light lime green main color */
 }
 
 html {
@@ -736,6 +732,10 @@ margin: .7rem 0;
     
     flex-wrap: wrap;
 }
+
+.footer-iconTop {
+    --bg-color: #1995AD;
+}
  
 .showData{
     display: flex;
@@ -744,8 +744,7 @@ margin: .7rem 0;
     align-items: center;
     position: fixed;
     top: 55px;
-    background-color: #262840;
-    box-shadow: rgba(0, 0, 0, 0.5);
+    background-color : rgba(0, 0, 0, 0.1);
     width: 98%;
     height: 50px;
     text-align: center;
@@ -840,7 +839,10 @@ margin: .7rem 0;
         flex-wrap: wrap;
     }
      
-
+    .footer-iconTop {
+        --bg-color: #1995AD;
+    }
+     
     .showData{
         display: flex;
         flex-direction: row;
@@ -848,8 +850,7 @@ margin: .7rem 0;
         align-items: center;
         position: fixed;
         top: 55px;
-        background-color: #262840;
-        box-shadow: rgba(0, 0, 0, 0.5);
+        background-color : rgba(0, 0, 0, 0.1);
         width: 98%;
         height: 50px;
         text-align: center;
@@ -932,16 +933,18 @@ margin: .7rem 0;
         flex-wrap: wrap;
     }
      
-
+    .footer-iconTop {
+        --bg-color: #1995AD;
+    }
+     
     .showData{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
         position: fixed;
+        background-color : rgba(0, 0, 0, 0.1);
         top: 55px;
-        background-color: #262840;
-        box-shadow: rgba(0, 0, 0, 0.5);
         width: 98%;
         height: 50px;
         text-align: center;
