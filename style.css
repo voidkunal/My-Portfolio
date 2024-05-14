@@ -269,10 +269,9 @@ box-shadow: none;
 
 }
 
-.services-container.services-box {
+.services-box {
 
     flex: 1 1 30rem;
-    background: var(--snd-bg-color);
     padding: 3rem 2rem 4rem; 
     border-radius: 2rem;
     text-align: center;
