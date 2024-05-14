@@ -522,14 +522,28 @@ margin: .7rem 0;
 /*BREAKPOINT*/
 @media (max-width: 1200px) {
 
-    html {
+    html, body{
     
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     font-size: 55%;
     
     }
 }
 
 @media (max-width: 991px) {
+
+    html, body{
+    
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        }
 
     .header { padding: 2rem 3%;
     
@@ -565,6 +579,15 @@ margin: .7rem 0;
 }
 
 @media (max-width: 768px) {
+
+    html, body{
+    
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        }
 
 #menu-icon {
     
@@ -735,6 +758,15 @@ margin: .7rem 0;
 
 @media (max-width: 671px) {
 
+    html, body{
+    
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        }
+
     .icon1{
         display : flex;
         align-items : center;
@@ -828,9 +860,15 @@ margin: .7rem 0;
 
 @media (max-width: 450px) {
 
-    html { 
-        font-size: 50%; 
-    }
+    html, body{
+    
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-size: 50%;
+        }
 
     .icon1{
         display : flex;
