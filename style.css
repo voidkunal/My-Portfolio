@@ -149,7 +149,7 @@ span {
 
     width: 35vw;
     height : auto;
-    border-radius:50% ;
+    border-radius:50%;
     animation: floatImage 4s ease-in-out infinite;
 }
 
