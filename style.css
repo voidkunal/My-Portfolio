@@ -530,6 +530,37 @@ margin: .7rem 0;
     font-size: 55%;
     
     }
+    .social-media a {
+        width : 7.5rem;
+         height : 6.5rem;
+         font-size: 4rem;
+          border : none;
+      }
+     .contact form {
+ 
+         margin-left :10vw;
+         max-width : 100%;
+     }
+ 
+ 
+      #video-pbox1 {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width : 50%;
+     }
+ 
+     #video-pbox2 {
+         display: none;
+     }
+     
+       .footer-text {
+         font-size: 2.5rem;
+     }
+ 
+     .footer-iconTop  {
+        width : 5.5rem;
+     }
 }
 
 @media (max-width: 991px) {
@@ -550,6 +581,12 @@ margin: .7rem 0;
     section { padding: 10rem 3%;
     
     }
+    .social-media a {
+        width : 6.5rem;
+         height : 4.5rem;
+         font-size: 4rem;
+          border : none;
+      }
     
     .services { 
         padding: 7rem; 
@@ -728,7 +765,7 @@ margin: .7rem 0;
 
 .footer-text {
     
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     
     }
 
@@ -833,14 +870,12 @@ margin: .7rem 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        width : 35%;
-        height: 95%;
-        border-radius: 7%;
+        width : 42%;
+        border-radius: 20%;
     }
-
     .footer-text {
     
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         
         }
 
@@ -859,20 +894,6 @@ margin: .7rem 0;
         --bg-color: #1995AD;
     }
      
-    .showData{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-        position: fixed;
-        top: 55px;
-        background-color : rgba(0, 0, 0, 0.1);
-        width: 98%;
-        height: 50px;
-        text-align: center;
-        padding: 0px;
-        gap: 25px;
-    }
 }
 
 @media (max-width: 450px) {
@@ -939,15 +960,12 @@ margin: .7rem 0;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin : 10px;
-        width : 35%;
-        height: 95%;
-        border-radius: 7%;
+        width : 40.5%;
     }
  
     .footer-text {
     
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         
         }
 
@@ -982,3 +1000,123 @@ margin: .7rem 0;
     }
    
 }
+
+@media (max-width: 376px) {
+    html, body{
+    
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-size: 50%;
+    }
+
+    .navbar.showData {
+        width : 45rem;
+        height : 3.5rem;
+    }
+
+    a.active {
+        font-size : 1.85rem;
+    }
+
+     .social-media a {
+        border : none;
+        width : 2.5rem;
+        height : 1.5rem;
+        font-size: 1.72rem;
+     }
+
+     #video-pbox2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width : 39.5%;
+        border-radius: 20%;
+    }
+     .footer-text {
+        font-size: 1.2rem;
+    }
+} 
+@media (max-width: 330px) {
+    html, body{
+    
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-size: 50%;
+    }
+
+    .navbar.showData {
+        width : 40rem;
+        height : 3.5rem;
+    }
+
+    a.active {
+        font-size : 1.6rem;
+    }
+
+     .social-media a {
+        border : none;
+        width : 2.5rem;
+        height : 1.5rem;
+        font-size: 1.72rem;
+     }
+
+     #video-pbox2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width : 39.5%;
+        border-radius: 20%;
+    }
+     .footer-text {
+        font-size: 1.2rem;
+    }
+} 
+@media (max-width: 250px) {
+    html, body{
+    
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-size: 50%;
+    }
+
+    .navbar.showData {
+        width : 30.0rem;
+        height : 2.5rem;
+    }
+
+    a.active {
+        font-size : 1.0rem;
+    }
+
+        .social-media a {
+        border : none;
+        width : 3.5rem;
+        height : 1.5rem;
+        font-size: 1.72rem;
+     }
+    
+       #video-pbox2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width : 55.5%;
+        border-radius: 20%;
+    }
+ 
+     .footer-text {
+        font-size: 0.9rem;
+    }
+
+    .footer-iconTop  {
+       width : 2.7rem;
+    }
+} 
