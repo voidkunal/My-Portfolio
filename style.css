@@ -821,7 +821,7 @@ margin: .7rem 0;
     }
     .social-media a {
         border : none;
-        font-size: 2.5rem;
+        width : 3.5rem;
      }
 
     .portfolio-container { 
@@ -944,7 +944,7 @@ margin: .7rem 0;
 
     .social-media a {
         border : none;
-        font-size: 2.5rem;
+        width : 3.5rem;
      }
     
     .icon{
